@@ -1,11 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-	vscode.window.showInformationMessage('I am alive!');
 	context.subscriptions.push(
-		vscode.commands.registerCommand('gearstick.helloWorld', () => {
-			vscode.window.showInformationMessage('Hello World!');
-		}),
 		vscode.commands.registerCommand('gearstick.shiftArgumentsLeft', () => {
 			const editor = vscode.window.activeTextEditor;
 			if (!editor) {

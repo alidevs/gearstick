@@ -2,7 +2,7 @@
   "name": "gearstick",
   "displayName": "gearstick",
   "description": "Shift arguments",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "alidevs",
   "icon": "images/gearstick.png",
   "engines": {
@@ -18,16 +18,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "gearstick.helloWorld",
-        "title": "HELLO???"
-      },
-      {
         "command": "gearstick.shiftArgumentsLeft",
-        "title": "GEARSTICK: Shift Arguments Left"
+        "title": "Shift Arguments Left"
       },
       {
         "command": "gearstick.shiftArgumentsRight",
-        "title": "GEARSTICK: Shift Arguments Right"
+        "title": "Shift Arguments Right"
       }
     ],
     "keybindings": [
